@@ -24,7 +24,7 @@ const AddTodoForm = () => {
   }
 
   return (
-   <>
+   <div className="mt-5 pt-5">
     <div className="container w-50 text-center bg-light mt-5 rounded bg-success-subtle  py-2">
       <h3 className="fw-bold">My Todos App</h3>
     </div>
@@ -39,7 +39,7 @@ const AddTodoForm = () => {
       <button className="btn bg-primary text-white" type="submit">Add To-Do</button>
       <button className="btn bg-danger text-white ms-5 px-4" type="button" onClick={Logout}>logout</button>
     </form>
-   </>
+   </div>
   );
 };
 

@@ -5,7 +5,7 @@ const TodoItem = ({ todo, index }) => {
   const { dispatch } = useContext(TodoContext);
 
   return (
-    <div className="container d-flex gap-3 border-2 p-2 rounded bg-info-subtle">
+    <li className="container d-flex gap-3 border-2 ps-3 py-3 rounded bg-info-subtle">
       <p style={{ textDecoration:todo.completed ? "line-through" : "none" }} className="me-auto">{index} - {todo.title}</p>
       <div className="d-flex gap-3">
         <button onClick={() => dispatch({ type: "TOGGLE_TODO", payload: todo.id })} className="btn py-0 px-5 text-white bg-dark">
@@ -15,7 +15,7 @@ const TodoItem = ({ todo, index }) => {
           Delete Item
         </button>
       </div>
-    </div>
+    </li>
   );
 };
 

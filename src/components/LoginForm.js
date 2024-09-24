@@ -20,7 +20,7 @@ const LoginForm = () => {
   };
 
   return (
-   <>
+   <div className="mt-5 pt-5">
      <div className="container w-50 mt-5 py-2 rounded bg-success-subtle ps-5 pt-4">
       <p className="bg-light w-50 ps-3 py-3">
        <span className="fw-bold">ID</span> - vivekchauhan333@gmail.com <br/>
@@ -42,7 +42,7 @@ const LoginForm = () => {
         <button className="btn bg-primary text-white px-5" type="submit">Login</button>
       </div>
     </form>
-   </>
+   </div>
   );
 };
 
