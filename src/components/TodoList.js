@@ -6,7 +6,7 @@ const TodoList = () => {
   const { todos } = useContext(TodoContext);
 
   return (
-    <ul className="container d-flex flex-column w-50 gap-3 pb-5 pt-3 rounded bg-success-subtle ">
+    <ul className="container d-flex flex-column gap-3 pb-5 pt-3 rounded bg-success-subtle ">
       {todos.length === 0 ? (
         <p className="fw-bold ms-5">No todos available</p>
       ) : (
