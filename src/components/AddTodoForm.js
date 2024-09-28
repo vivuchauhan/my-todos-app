@@ -54,7 +54,7 @@ const AddTodoForm = () => {
               placeholder="Enter a new to-do"
             />
             <button className="btn bg-primary text-white" type="submit">
-              Add To-Do
+              Add Item
             </button>
             <button className="btn bg-danger text-white ms-5 px-5" type="button" onClick={Logout}>
               Logout
